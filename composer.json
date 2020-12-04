@@ -1,0 +1,22 @@
+{
+  "name": "flyingfiree/composer",
+  "description": "composer",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ff",
+      "email": "2196076103@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "files": [
+      "src/helper.php"
+    ],
+    "psr-4": {
+      "flyingfiree\\composer\\": "src"
+    }
+  }
+}
